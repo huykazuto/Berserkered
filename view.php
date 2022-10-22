@@ -81,7 +81,7 @@ function time_delay($delay)
 {
     $loai = $delay;
     $so = $loai;
-    $delay = $loai + 20;
+    $delay = $loai * 1.3;
     for($x = $delay ;$x>= 1;$x--){
         echo "\r\033[1;33m   LH TOOL \033[1;31m ~>       \033[1;32m LO      \033[1;31m >   | $x | ";
         usleep(150000);
